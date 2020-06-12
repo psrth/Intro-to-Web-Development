@@ -9,28 +9,30 @@
     <body>
         <!-- Heading Tags -->
         <h1>Parth's HTML Cheatsheet</h1>
-        <br>
-
+        <hr>
         <h1>Let's talk about headings!</h1>
         <h2>That's twoo much man!</h2>
         <h3>Comedy comes in threes!</h3>
         <h4>Damn did I break the fourth wall?</h4>
         <h5>HTML5? More like H5 amirite.</h5>
-        <h6>Why was six afraid of seven? Because HTML doesn't support h7, it stops at h6 :(</h6><br>   
+        <h6>Why was six afraid of seven? Because HTML doesn't support h7, it stops at h6 :(</h6>
+        <hr>
 
         <!-- Paragraphs -->
         <h3>Paragraphs in HTML</h3>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eveniet unde totam minus! Ratione temporibus enim eveniet, officiis id deleniti esse molestiae quisquam impedit cum modi repellat, fugiat nobis amet velit tempora unde eos omnis tenetur totam nemo ducimus placeat facilis! Enim quaerat adipisci veniam, nesciunt accusamus necessitatibus incidunt deleniti.
-        </p><br>
+        </p><hr>
         <!-- <strong> helps making text bold, <em> makes italics, <a href=""> is for links, target blank means opening link in a new tab -->
         <h3>Text Styling in HTML</h3>
         <p>
             <a href="https://www.google.com" target="_blank">This link opens in a new tag,</a> sit amet consectetur adipisicing elit. Rerum eveniet unde totam minus! <em>This text is probably in italics.</em> Officiis id deleniti esse molestiae quisquam impedit cum modi repellat. <strong>This text looks bold, right? </strong>Unde eos omnis tenetur totam nemo ducimus placeat facilis! Enim quaerat adipisci veniam, <a href="https://www.google.com">this link opens in the same tab.</a> Necessitatibus incidunt deleniti.
-        </p><br>
+        </p>
+        <hr>
 
         <!-- Tags can have attributes, like so: -->
-        <h4 tagName="Hello World">Hello World, with an attribute. I don't just provide information about an element, I provide a unique ID to the element for reference.</h4><br>
+        <h4 tagName="Hello World">Hello World, with an attribute. I don't just provide information about an element, I provide a unique ID to the element for reference.</h4>
+        <hr>
 
 
         <!-- Lists, Lists, Lists!!-->
@@ -48,7 +50,9 @@
             <li>List Item 2</li>
             <li>List Item 3</li>
             <li>List Item 4</li>
-        </ol><br>
+        </ol>
+        <hr>
+
 
 
         <!-- Tables -->
@@ -84,8 +88,54 @@
                 </tr>
             </tbody>
 
-        </table><br>
+        </table>
+        <hr>
         <!-- th is for headings, td is for data-->
+
+        <!-- Forms in HTML-->
+        <!-- the form action is for server side programming, calling an action to occur when the form is submitted, such as adding email to a newsletter list, etc. POST is secure way of sending data, while GET is unsafe, generally added to the URL, so helpful for searches but generally not used for data submitted.-->
+        <h3>Forms in HTML</h3>
+        <form action="process.php">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="John">
+            </div><br>
+
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Doe">
+            </div><br>
+        
+            <div>
+                <label>Gender</label>
+                <select name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" placeholder="18"> 
+            </div><br>
+
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday"> 
+            </div><br>
+            
+            <div>
+                <label>Message</label>
+                <textarea name="Message" placeholder="Enter your message here!"></textarea>
+            </div><br>
+
+            <input type="submit" name="submit" value="Submit"><br>
+
+        </form>
+        <hr>
+
+        <!-- Buttons in HTML -->
 
 
     </body>
