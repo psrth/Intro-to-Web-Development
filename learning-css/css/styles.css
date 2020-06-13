@@ -1,0 +1,95 @@
+* {
+    text-align: center;
+    color: #000000;
+}
+
+body {
+    background-color: #f1faee;
+    font-family: Nunito;
+    font-weight: 100;
+    /* background: url(../imgs/black-hole.jpg); */
+    /* background-repeat: round; */
+    background-size: cover;
+    background-blend-mode: darken;
+    opacity: 1;
+}
+
+#heading-title {
+    color: #e63946;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.heading-subtitle {
+    color: #000000;
+    border-style: dotted dotted dotted dotted;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+div {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#paragraph-div {
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+    box-sizing: border-box
+}
+
+.css-box-model {
+    margin: 100px 100px 100px 100px;
+    border: 10px solid blue;
+    padding: 7px;
+    color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+    background-color: yellow;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    text-decoration: none;
+    background-color: cyan;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: underline;
+    background-color: darkblue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  ul.a {
+    list-style-type: circle;
+  }
+  
+  ul.b {
+    list-style-type: square;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha;
+  }
