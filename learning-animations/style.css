@@ -12,6 +12,9 @@ body {
     animation-name: boxanimation;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes boxanimation {
