@@ -1,0 +1,51 @@
+body {
+    background: #333;
+    align-items: center;
+}
+
+.box {
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    animation-name: boxanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxanimation {
+    0% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+        border-radius: 0 0 0 0;
+    }
+
+    25% {
+        background-color: red;
+        left: 300px;
+        top: 0px;
+        border-radius: 50% 0 50% 0;
+    }
+
+    50% {
+        background-color: green;
+        left: 300px;
+        top: 300px;
+        border-radius: 50% 50% 50% 50%;
+    }
+
+    75% {
+        background-color: blue;
+        left: 0px;
+        top: 300px;
+        border-radius: 0 50% 0 50%;
+    }
+
+    100% {
+        background-color: white;
+        left: 0px;
+        top: 0px;
+    }
+}
