@@ -53,12 +53,14 @@ body {
     margin: 40px auto 0 auto;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 700px) 
+{
     .feature-section {
         display: flex;
         align-items: stretch;
         justify-content: space-between;
     }
+
 }
 
 .feature {
@@ -66,6 +68,7 @@ body {
     margin-bottom: 20px;
     box-sizing: border-box;
     flex-basis: 30%;
+    margin: auto;
 
 }
 
