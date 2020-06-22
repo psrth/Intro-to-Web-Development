@@ -51,9 +51,14 @@ body {
 .feature-section {
     max-width: 1300;
     margin: 40px auto 0 auto;
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
+}
+
+@media (min-width: 700px) {
+    .feature-section {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+    }
 }
 
 .feature {
