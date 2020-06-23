@@ -52,3 +52,53 @@
 
 
 // FUNCTIONS IN JAVASCRIPT
+
+// // first create the function, then call it
+// function fun() {
+//     alert('This is a function.');
+// }
+
+// fun();
+
+
+// // Function to get username and say hello (non-parameterized)
+// function nameHello () {
+//     var name;
+//     name = prompt('What is your name?')
+//     alert('Hello there, '+name+'.');
+// }
+// nameHello();
+    
+// // Function to get username and say hello (parameterized)
+// function nameHello (name) {
+//     var result = 'Hello there, '+name+'.';
+//     alert(result);
+// }   
+
+// var string = prompt('What is your name?');
+// nameHello(string);
+
+// function sumNumbers (num1, num2) {
+//     var result = num1 + num2;
+//     console.log(result)
+// }
+
+// sumNumbers(5, 5);
+// sumNumbers('Hello ', 'Parth');
+
+
+// -----------------------------------------------------
+
+
+// WHILE AND FOR LOOPS IN JS
+
+// // while
+// var num = 0;
+// while (num < 100) {
+//     num++;
+//     console.log(num);
+// }
+
+for (let num = 0; num <= 100; num++) {
+    console.log(num);
+}
