@@ -99,6 +99,47 @@
 //     console.log(num);
 // }
 
-for (let num = 0; num <= 100; num++) {
-    console.log(num);
-}
+// // for 
+// for (let num = 0; num <= 100; num++) {
+//     console.log(num);
+// }
+
+
+// -----------------------------------------------------
+
+
+// DATA TYPES IN JS
+
+// let yourAge = 18; // number
+// let yourName = 'Parth' // string
+// let name = {first: 'Parth', last: 'Sharma', age: 18}; // object
+// let state = true; // boolean
+// let groceries = ['apples', 'peanut butter', 'chips']; // array
+// let random; // undefined
+// let nothing = null; // value null
+
+
+// -----------------------------------------------------
+
+
+// STRINGS IN JS
+
+let fruit = 'banana';
+
+// \n indicated a new line
+let moreFruits = 'banana\napple';
+console.log(moreFruits);
+
+let name = 'Parth Sharma';
+
+// some common functions we can use
+console.log(name.length);
+console.log(name.indexOf('Sharma'));
+console.log(name.slice(0,6));
+console.log(name.replace('Parth', 'Vedaant'));
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+console.log(name.concat(' is my name.'));
+console.log(name.charAt(2));
+console.log(name[0]);
+console.log(name.split(' '));
