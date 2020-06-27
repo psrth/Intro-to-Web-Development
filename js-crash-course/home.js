@@ -124,22 +124,40 @@
 
 // STRINGS IN JS
 
-let fruit = 'banana';
+// let fruit = 'banana';
 
-// \n indicated a new line
-let moreFruits = 'banana\napple';
-console.log(moreFruits);
+// // \n indicated a new line
+// let moreFruits = 'banana\napple';
+// console.log(moreFruits);
 
-let name = 'Parth Sharma';
+// let name = 'Parth Sharma';
 
-// some common functions we can use
-console.log(name.length);
-console.log(name.indexOf('Sharma'));
-console.log(name.slice(0,6));
-console.log(name.replace('Parth', 'Vedaant'));
-console.log(name.toUpperCase());
-console.log(name.toLowerCase());
-console.log(name.concat(' is my name.'));
-console.log(name.charAt(2));
-console.log(name[0]);
-console.log(name.split(' '));
+// // some common functions we can use
+// console.log(name.length);
+// console.log(name.indexOf('Sharma'));
+// console.log(name.slice(0,6));
+// console.log(name.replace('Parth', 'Vedaant'));
+// console.log(name.toUpperCase());
+// console.log(name.toLowerCase());
+// console.log(name.concat(' is my name.'));
+// console.log(name.charAt(2));
+// console.log(name[0]);
+// console.log(name.split(' '));
+
+
+// -----------------------------------------------------
+
+
+// ARRAYS IN JS
+
+let fruits = ['banana','apple','orange','kiwi'];
+fruits = new Array('banana', 'apple','orange','kiwi');
+
+alert(fruits[1]);
+
+fruits[0] = 'pineapple';
+alert(fruits[0]);
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
