@@ -153,11 +153,14 @@
 let fruits = ['banana','apple','orange','kiwi'];
 fruits = new Array('banana', 'apple','orange','kiwi');
 
-alert(fruits[1]);
+// alert(fruits[1]);
 
 fruits[0] = 'pineapple';
-alert(fruits[0]);
+// alert(fruits[0]);
 
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
+
+// PAUSE ON JAVA SCRIPT DEV TUTORIAL FOR DJANGO FRAMEWORK
+// https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=44s
